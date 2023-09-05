@@ -1,0 +1,23 @@
+{
+	"name": "sveltekit-app",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.20.4",
+		"svelte": "^4.0.5",
+		"vite": "^4.4.2"
+	},
+	"type": "module",
+	"dependencies": {
+		"@picocss/pico": "^1.5.10",
+		"@prismicio/client": "^7.1.1",
+		"@prismicio/helpers": "^2.3.9",
+		"@prismicio/svelte": "^0.0.11"
+	}
+}
