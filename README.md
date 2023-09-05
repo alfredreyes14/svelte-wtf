@@ -48,5 +48,4 @@ For demo purposes, this project is integrated with Prismic. Check their document
 
 ###### Notes
 I highly suggest creating your own Prismic repository, to connect your newly created repo to this project follow these steps
-1. Go to **/lib/prismic.io.js** and change the ff:
-      a. 
+1. Go to **/lib/prismic.io.js** and change the **line 3** with your repo name. Then change **line 8** and add your routes. If you will use slices, make sure that the uid of the document matches the **uid** in the routes object.
