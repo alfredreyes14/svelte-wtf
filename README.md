@@ -36,3 +36,17 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+## Prismic
+
+For demo purposes, this project is integrated with Prismic. Check their documentation here (https://prismic.io/).
+
+###### Important files to take note for Prismic integration
+1. /lib/prismic.io.js
+2. /slices/*
+3. +page.js or +page.server.js
+
+###### Notes
+I highly suggest creating your own Prismic repository, to connect your newly created repo to this project follow these steps
+1. Go to **/lib/prismic.io.js** and change the ff:
+      a. 
